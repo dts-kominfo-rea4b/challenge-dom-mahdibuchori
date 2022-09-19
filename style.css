@@ -1,0 +1,95 @@
+body {
+    background: #050df7;
+}
+#app {
+    width: 40%;
+    top: 50%;
+    left: 50%;
+    background: white;
+    border-radius: 10px;
+    min-width: 550px;
+    height: fit-content;
+    position: absolute;
+    padding: 30px;
+    transform: translate(-50%, -50%);
+}
+#todo-title{
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    border: 2px solid #050df7;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+    margin-top: 6px;
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+#todo-subtitle{
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+}
+section{
+    display: flex;
+}
+#todo-input {
+    width: 65%;
+    margin-right: 5%;
+    height: 40px;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+    font-size: 25px;
+    border: 2px solid #d1d3d4;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+}
+
+#todo-input:focus {
+    outline: none;
+    border-color: #0d75ec;
+    color: #050df7;
+  }
+
+#todo-submit{
+    width: 25%;
+    padding: 12px;
+    color: #ffffff;
+    background-color: #050df7;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+    font-size: 25px;
+    border: 2px solid #d1d3d4;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+}
+
+#todo-submit:hover{
+    color: #050df7;
+    background-color: #fff;
+    border: 2px solid #050df7;
+}
+
+#todo-output{
+    width: 100%;
+    list-style-type:none;
+    padding: 7px 0px 0px 7px;
+}
+
+#todo-output > li{
+    list-style-type:none;
+    margin-right: 5%;
+    height: 35px;
+    padding: 12px;
+    color: #050df7;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+    font-size: 25px;
+    border: 2px solid #d1d3d4;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+    margin-top: 6px;
+}
